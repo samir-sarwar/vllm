@@ -1,0 +1,9 @@
+{
+  "shape": [
+    64,
+    384
+  ],
+  "max_abs_error": 8.640599999999721e-05,
+  "min_cosine_similarity": 0.9999998462534286,
+  "finite": true
+}

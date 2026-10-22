@@ -1,0 +1,58 @@
+{
+  "config": {
+    "label": "patch-r2-l512",
+    "model": "intfloat/e5-small",
+    "revision": "e272f3049e853b47cb5ca3952268c6662abda68f",
+    "lengths": "512",
+    "num_prompts": 8192,
+    "max_num_seqs": 128,
+    "max_num_batched_tokens": 32768,
+    "max_model_len": 512,
+    "warmups": 2,
+    "repeats": 5,
+    "dtype": "float16",
+    "seed": 0,
+    "output": "/workspace/evidence/offline-guarded-final/patch-r2-l512.json",
+    "profile_dir": null,
+    "vllm_version": "0.1.dev1+g4643f4185",
+    "source_sha256": {
+      "methods.py": "adce16125ae668ee9ab6d54501df3731f94a026b30743ce1b1435cdec3daf907",
+      "mean_pool.py": "ec99747094e1ffe94b44ae5ea2b19e7217819d0cda4f8f5216bdf8f4e204dc9c"
+    },
+    "prompt_sha256": "5cb3fcec5b7d804ff2fc532fbb0f9b39a5c4fa7ebdecb4877a8530fb203b6253",
+    "total_input_tokens": 4194304
+  },
+  "runs": [
+    {
+      "repeat": 0,
+      "elapsed_seconds": 8.999280190793797,
+      "embeddings_per_second": 910.2950265267172,
+      "input_tokens_per_second": 466071.0535816792
+    },
+    {
+      "repeat": 1,
+      "elapsed_seconds": 8.948125762864947,
+      "embeddings_per_second": 915.4989790149243,
+      "input_tokens_per_second": 468735.47725564125
+    },
+    {
+      "repeat": 2,
+      "elapsed_seconds": 9.054953008890152,
+      "embeddings_per_second": 904.6982344311556,
+      "input_tokens_per_second": 463205.49602875166
+    },
+    {
+      "repeat": 3,
+      "elapsed_seconds": 9.065617657033727,
+      "embeddings_per_second": 903.6339618452898,
+      "input_tokens_per_second": 462660.5884647884
+    },
+    {
+      "repeat": 4,
+      "elapsed_seconds": 9.069194535026327,
+      "embeddings_per_second": 903.2775698394719,
+      "input_tokens_per_second": 462478.1157578096
+    }
+  ],
+  "median_embeddings_per_second": 904.6982344311556
+}

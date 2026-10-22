@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/opt/vllm-dev/.venv/bin/python",
+    "/workspace/evidence/offline_ab.py",
+    "--label",
+    "patch-r3-l512",
+    "--lengths",
+    "512",
+    "--num-prompts",
+    "8192",
+    "--repeats",
+    "5",
+    "--output",
+    "/workspace/evidence/offline-guarded-final/patch-r3-l512.json"
+  ],
+  "methods_sha256": "adce16125ae668ee9ab6d54501df3731f94a026b30743ce1b1435cdec3daf907",
+  "kernel_sha256": "ec99747094e1ffe94b44ae5ea2b19e7217819d0cda4f8f5216bdf8f4e204dc9c"
+}

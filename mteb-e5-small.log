@@ -1,0 +1,170 @@
+W1022 11:49:16.323000 2522 .venv/lib/python3.12/site-packages/torch/_opaque_base.py:6] torch._opaque_base is deprecated, use torch._custom_class_base instead
+W1022 11:49:16.324000 2522 .venv/lib/python3.12/site-packages/torch/_library/opaque_object.py:288] register_opaque_type is deprecated, use register_custom_class instead
+W1022 11:49:16.324000 2522 .venv/lib/python3.12/site-packages/torch/_library/opaque_object.py:211] typ='value' is deprecated, use typ='constant' instead
+W1022 11:49:31.807000 2803 torch/_opaque_base.py:6] torch._opaque_base is deprecated, use torch._custom_class_base instead
+W1022 11:49:31.808000 2803 torch/_library/opaque_object.py:288] register_opaque_type is deprecated, use register_custom_class instead
+W1022 11:49:31.809000 2803 torch/_library/opaque_object.py:211] typ='value' is deprecated, use typ='constant' instead
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+(APIServer pid=2803) WARNING 10-22 11:49:44 [vllm.py:1755] Enforce eager set, disabling torch.compile, CUDAGraphs, and JIT kernel warmup. This is equivalent to setting -cc.mode=none -cc.cudagraph_mode=none and --kernel_config.enable_jit_warmup=False
+(APIServer pid=2803) WARNING 10-22 11:49:44 [vllm.py:1779] Inductor compilation was disabled by user settings, optimizations settings that are only active during inductor compilation will be ignored.
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files:  60%|██████    | 6/10 [00:00<00:00, 18.62it/s]Fetching 10 files:  90%|█████████ | 9/10 [00:00<00:00, 22.09it/s]Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 22.34it/s]
+W1022 11:49:46.661000 3084 torch/_opaque_base.py:6] torch._opaque_base is deprecated, use torch._custom_class_base instead
+W1022 11:49:46.662000 3084 torch/_library/opaque_object.py:288] register_opaque_type is deprecated, use register_custom_class instead
+W1022 11:49:46.662000 3084 torch/_library/opaque_object.py:211] typ='value' is deprecated, use typ='constant' instead
+Loading safetensors checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:00<00:00, 84.55it/s]
+
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight embeddings.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight embeddings.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight embeddings.position_embeddings.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight embeddings.token_type_embeddings.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight embeddings.word_embeddings.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.0.attention.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.0.attention.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.0.attention.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.0.attention.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.0.intermediate.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.0.intermediate.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.0.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.0.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.0.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.0.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.1.attention.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.1.attention.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.1.attention.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.1.attention.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.1.intermediate.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.1.intermediate.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.1.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.1.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.1.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.1.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.10.attention.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.10.attention.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.10.attention.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.10.attention.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.10.intermediate.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.10.intermediate.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.10.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.10.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.10.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.10.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.11.attention.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.11.attention.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.11.attention.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.11.attention.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.11.intermediate.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.11.intermediate.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.11.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.11.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.11.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.11.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.2.attention.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.2.attention.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.2.attention.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.2.attention.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.2.intermediate.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.2.intermediate.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.2.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.2.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.2.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.2.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.3.attention.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.3.attention.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.3.attention.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.3.attention.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.3.intermediate.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.3.intermediate.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.3.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.3.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.3.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.3.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.4.attention.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.4.attention.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.4.attention.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.4.attention.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.4.intermediate.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.4.intermediate.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.4.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.4.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.4.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.4.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.5.attention.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.5.attention.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.5.attention.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.5.attention.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.5.intermediate.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.5.intermediate.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.5.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.5.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.5.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.5.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.6.attention.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.6.attention.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.6.attention.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.6.attention.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.6.intermediate.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.6.intermediate.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.6.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.6.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.6.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.6.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.7.attention.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.7.attention.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.7.attention.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.7.attention.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.7.intermediate.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.7.intermediate.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.7.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.7.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.7.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.7.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.8.attention.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.8.attention.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.8.attention.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.8.attention.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.8.intermediate.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.8.intermediate.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.8.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.8.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.8.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.8.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.9.attention.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.9.attention.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.9.attention.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.9.attention.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.9.intermediate.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.9.intermediate.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.9.output.LayerNorm.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.9.output.LayerNorm.weight with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.9.output.dense.bias with dtype torch.float32 into parameter with dtype torch.float16
+(EngineCore pid=3084) WARNING 10-22 11:50:04 [utils.py:333] Attempted to load weight encoder.layer.9.output.dense.weight with dtype torch.float32 into parameter with dtype torch.float16
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 904.02it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+(EngineCore pid=3084) WARNING 10-22 11:50:07 [vllm.py:1755] Enforce eager set, disabling torch.compile, CUDAGraphs, and JIT kernel warmup. This is equivalent to setting -cc.mode=none -cc.cudagraph_mode=none and --kernel_config.enable_jit_warmup=False
+(EngineCore pid=3084) WARNING 10-22 11:50:07 [vllm.py:1779] Inductor compilation was disabled by user settings, optimizations settings that are only active during inductor compilation will be ignored.
+(APIServer pid=2803) WARNING 10-22 11:50:08 [utils.py:226] To make v1/embeddings API fast, please install orjson by `pip install orjson`
+INFO:     Started server process [2803]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Running 1 items in this shard
+[RemoteOpenAIServer] GPU memory before server start: 0.49 GB
+Launching RemoteOpenAIServer with: vllm serve intfloat/e5-small --runner pooling --enforce-eager --disable-uvicorn-access-log --port 57387 --seed 0
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 2234 examples [00:00, 127336.76 examples/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 3108 examples [00:00, 229958.67 examples/s]
+VLLM main score:  0.7422948028234446
+SentenceTransformer main score:  0.7422994752439667
+Difference:  4.672420522044973e-06
+.(APIServer pid=2803) WARNING 10-22 11:50:18 [utils.py:648] [shutdown] Process manager: force killing remaining processes count=1
+(APIServer pid=2803) WARNING 10-22 11:50:18 [utils.py:653] [shutdown] Process manager: force killing remaining process EngineCore pid 3084
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+/usr/lib/python3.12/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+[RemoteOpenAIServer] Sent SIGTERM to process 2803
+[RemoteOpenAIServer] Server 2803 terminated gracefully
+[RemoteOpenAIServer] GPU memory released to 0.49 GB (target: 2.64 GB) in 0.0s
+
+1 passed in 54.08s

@@ -1,0 +1,58 @@
+{
+  "config": {
+    "label": "patch-r1-l512",
+    "model": "intfloat/e5-small",
+    "revision": "e272f3049e853b47cb5ca3952268c6662abda68f",
+    "lengths": "512",
+    "num_prompts": 8192,
+    "max_num_seqs": 128,
+    "max_num_batched_tokens": 32768,
+    "max_model_len": 512,
+    "warmups": 2,
+    "repeats": 5,
+    "dtype": "float16",
+    "seed": 0,
+    "output": "/workspace/evidence/offline-guarded-final/patch-r1-l512.json",
+    "profile_dir": "/workspace/evidence/offline-guarded-final/patch-r1-l512-traces",
+    "vllm_version": "0.1.dev1+g4643f4185",
+    "source_sha256": {
+      "methods.py": "adce16125ae668ee9ab6d54501df3731f94a026b30743ce1b1435cdec3daf907",
+      "mean_pool.py": "ec99747094e1ffe94b44ae5ea2b19e7217819d0cda4f8f5216bdf8f4e204dc9c"
+    },
+    "prompt_sha256": "5cb3fcec5b7d804ff2fc532fbb0f9b39a5c4fa7ebdecb4877a8530fb203b6253",
+    "total_input_tokens": 4194304
+  },
+  "runs": [
+    {
+      "repeat": 0,
+      "elapsed_seconds": 9.114662547130138,
+      "embeddings_per_second": 898.7716174505387,
+      "input_tokens_per_second": 460171.0681346758
+    },
+    {
+      "repeat": 1,
+      "elapsed_seconds": 8.990977492183447,
+      "embeddings_per_second": 911.1356364891293,
+      "input_tokens_per_second": 466501.4458824342
+    },
+    {
+      "repeat": 2,
+      "elapsed_seconds": 9.009241884108633,
+      "embeddings_per_second": 909.2884956779591,
+      "input_tokens_per_second": 465555.70978711505
+    },
+    {
+      "repeat": 3,
+      "elapsed_seconds": 9.063267740886658,
+      "embeddings_per_second": 903.8682552699892,
+      "input_tokens_per_second": 462780.54669823445
+    },
+    {
+      "repeat": 4,
+      "elapsed_seconds": 9.024756090017036,
+      "embeddings_per_second": 907.725363244087,
+      "input_tokens_per_second": 464755.38598097255
+    }
+  ],
+  "median_embeddings_per_second": 907.725363244087
+}
